@@ -1,0 +1,137 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+*.env
+secrets.json
+config.local.yaml
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Data (documents for RAG)
+# =========================
+data/
+datasets/
+documents/
+*.csv
+*.json
+*.parquet
+*.feather
+
+# =========================
+# Vector databases / embeddings
+# =========================
+chroma/
+chromadb/
+vectorstore/
+faiss_index/
+*.faiss
+*.pkl
+*.index
+*.db
+
+# =========================
+# Model files
+# =========================
+models/
+*.bin
+*.pt
+*.pth
+*.gguf
+*.onnx
+
+# =========================
+# Caches
+# =========================
+.cache/
+.cache/*
+huggingface_cache/
+hf_cache/
+__cache__/
+
+# =========================
+# LLM / HuggingFace
+# =========================
+.huggingface/
+transformers_cache/
+hf_home/
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Experiment outputs
+# =========================
+outputs/
+results/
+artifacts/
+checkpoints/
+
+# =========================
+# Streamlit / Gradio
+# =========================
+.streamlit/secrets.toml
+
+# LangChain
+.langchain/
+
+# LlamaIndex
+.storage/
+
+# Weaviate / Milvus / Qdrant local storage
+weaviate_data/
+milvus/
+qdrant_storage/
+
+# Docker
+docker-data/
+
+
+
+
+
+
